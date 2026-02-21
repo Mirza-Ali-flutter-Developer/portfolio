@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Ali | Web Developer</title>
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h2>Muhammad Ali</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Hi, I'm <span>Muhammad Ali</span></h1>
+    <p>Front-End Web Developer specialized in building modern, responsive and user-friendly websites using HTML, CSS & JavaScript.</p>
+    <button class="btn">Hire Me</button>
+</div>
+
+<div id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer who loves creating clean and professional websites. I focus on performance, responsiveness and modern UI design.</p>
+</div>
+
+<div id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+        <span>Responsive Design</span>
+        <span>Git & GitHub</span>
+    </div>
+  </div>
+
+<div id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Amazon Clone</h3>
+            <p>Responsive Amazon homepage clone built with HTML & CSS.</p>
+        </div>
+        <div class="card">
+            <h3>Business Landing Page</h3>
+            <p>Modern landing page with clean UI and responsive layout.</p>
+        </div>
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio website to showcase my projects.</p>
+        </div>
+    </div>
+  </div>
+
+<div id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: iteachali790@gmail.com</p>
+</div>
+<section id="contact">
+    <form onsubmit="sendMail(event)" style="max-width:400px;margin:auto;">
+
+        <input type="text" id="name" placeholder="Your Name" required
+        style="width:100%;padding:12px;margin:10px 0;border-radius:5px;border:none;">
+        
+        <input type="email" id="email" placeholder="Your Email" required
+        style="width:100%;padding:12px;margin:10px 0;border-radius:5px;border:none;">
+        
+        <textarea id="message" placeholder="Your Message" required
+        style="width:100%;padding:12px;margin:10px 0;border-radius:5px;border:none;height:120px;"></textarea>
+        
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<script src="index.js"></script>
+<footer>
+    © 2026 Muhammad Ali | All Rights Reserved
+</footer>
+
+</body>
+</html>
