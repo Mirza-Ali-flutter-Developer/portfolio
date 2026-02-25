@@ -8,5 +8,5 @@ function sendMail(e){
     let subject = "Portfolio Contact from " + name;
     let body = "Name: " + name + "%0D%0AEmail: " + email + "%0D%0AMessage: " + message;
 
-    window.location.href = `mailto:yourgmail@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `iteachali790@gmail.com?subject=${subject}&body=${body}`;
 }
